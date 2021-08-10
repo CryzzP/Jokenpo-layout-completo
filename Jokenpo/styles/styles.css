@@ -1,0 +1,137 @@
+body {
+    background-color: #82CDFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.titulo-ganhador {
+    background-color: #0099FF;
+    height: 74px;
+    font-size: 33px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 66px;
+    border-radius: 12px 12px 0px 0px;
+    max-width: 430px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 56px;
+}
+
+.caixa-placar {
+    height: 148px;
+    background-color: #0099FF;
+
+}
+
+.nome-jogador {
+    font-size: 38px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.placar {
+    color: #0099FF;
+    background-color: #DBF1FF;
+    font-size: 104px;
+    border-radius: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    font-weight: 500;
+}
+
+.caixa-placar {
+    display: flex;
+    align-items: center;
+    border-radius: 17px;
+    padding: 0 33px;
+}
+
+.separação-vs {
+    color: #ffffff;
+    font-size: 58px;
+    font-weight: 900;
+}
+
+.separação-vs-grande {
+    font-size: 104px;
+    margin: 0 88px;
+}
+
+.nome-jogador-1 {
+    margin-right: 19px;
+}
+
+.nome-jogador-2 {
+    margin-left: 19px;
+}
+.placar-1 {
+    margin-right: 51px;
+}
+
+.placar-2 {
+    margin-left: 51px;
+}
+
+.embrulho-butão {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.button-move {
+    height: 80px;
+    width: 220px;
+    background-color: #0099FF;
+    color: #ffffff;
+    font-size: 44px;
+    border: none;
+    border-radius: 8px;
+    transition-duration: 300ms;
+}
+
+.button-move:hover {
+    border: 1px solid #2ba7fa;
+    background-color: #052b44;
+    color: #2ba7fa;
+}
+
+.battlefild-container {
+    display: flex;
+    margin-bottom: 22px;
+}
+
+.field {
+    width: 464px;
+    height: 345px;
+    background-color: #DBF1FF;
+    border-radius: 17px;
+    
+}
+
+.battlefield {
+    display: flex;
+    align-items: center;
+    background-color: #0099FF;
+    padding: 30px;
+    border-radius: 17px;
+    margin: 0 19px;
+
+}
+
+.button-inicial {
+    margin-right: 101px;
+}
